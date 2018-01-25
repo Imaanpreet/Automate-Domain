@@ -1,5 +1,9 @@
 # Test method for adding a disk 
 
+ $evm.log(:info, "-----Disk adding method has started------")     #change
+
+
+
 begin
   $evm.log(:info, "Attaching disk..")
 
