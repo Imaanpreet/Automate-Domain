@@ -1,21 +1,4 @@
-#
-# This methods create additional disk and attaches to VM. User has
-# choice to specify disk size and disk provisioning type using dialog
-#
-# This file is NOT a part of ManageIQ-content
-# Copyright (C) 2017, Sachin Patil <psachin@redhat.com>
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# this program is distributed in the hope that it will be useful, but
-# WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-# General Public License for more details.
-
-# You should have received a copy of the GNU General Public License
-# along with this program. If not, see <http://www.gnu.org/licenses/>.
+# Test method for adding a disk 
 
 begin
   $evm.log(:info, "Attaching disk..")
